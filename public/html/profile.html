@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile</title>
+    <link rel="stylesheet" type="text/css" href="../css/profile.css">
+    <script type="text/javascript" src="../scripts/angular.min.js"></script>
+</head>
+<body>
+<div class="container" ng-app="profile" ng-controller="userCtrl">
+    <div class="content">
+
+        <img class="pic" src="../Images/default-user-image.png">
+
+        <button class="btn" >Change Avatar</button>
+    </div>
+
+    <div class="main">
+        <p>Name : {{ $scope.name }}</p>
+        <p>Username :</p>
+        <p>email :</p>
+        <p>Date of birth :</p>
+
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../scripts/profile.js" ></script>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <script type="text/javascript" src="scripts/angular.min.js"></script>
+</head>
+<body>
+
+<h3>Create your Account</h3>
+<form class="form" method="post" action="user">
+    <label>First Name</label>
+    <input type ="text" name="fname" required >
+    <br>
+    <label>Last Name</label>
+    <input type="text" name="lname" required>
+    <br>
+    <label>E-Mail</label>
+    <input type="text" name="email" required>
+    <br>
+    <label>Date Of Birth</label>
+    <input type="date" name="dob" required >
+    <br>
+    <label >Username</label>
+    <input name="username" required>
+    <br>
+    <label>Password</label>
+    <input type="password" name="password" required>
+    <br>
+    <button type="submit" name="signup" class="signup_btn">Sign Up</button>
+</form>
+
+<div class="content">
+    <p>
+        Already have account ?
+    </p>
+    <button type="button" name="login" onclick="window.location.href='/login.html' ">Log In</button>
+</div>
+
+</body>
+</html>

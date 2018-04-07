@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding : 0;
+    border: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../Images/bg6.png');
+    background-size: cover;
+
+
+}
+
+.form {
+    width: 50%;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 100px;
+    text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 3px 6px 10px #807979;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+
+ p {
+     display: inline-block;
+ }
+
+ label {
+     margin: 10px 50px 0 0;
+     font-size : 20px;
+     
+
+ }
+ input {
+     width : 225px;
+     padding: 5px;
+     margin: 15px 0 ;
+     font-size: 20px;
+     border: 1px solid rgba(50,50,50,0.2);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ button {
+     padding: 10px;
+     background-color: #555555;
+     color: white;
+     text-align: center;
+     border: none;
+     display: inline-block;
+     font-size: 25px;
+     outline: none;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ button:hover , button:focus {
+     background-color: #777777;
+     outline: none;
+ }
+ input:active, input:focus {
+     outline: none;
+
+ }
+ .login_btn {
+     margin: 40px 50% 0;
+     width : 125px;
+ }
